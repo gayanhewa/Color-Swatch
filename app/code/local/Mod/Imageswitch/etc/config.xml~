@@ -1,0 +1,25 @@
+<config>
+    <modules>
+        <Netstarter_Imageswitch>
+            <version>0.0.1</version>
+        </Netstarter_Imageswitch>
+    </modules>
+    <frontend>
+        <routers>
+            <imageswitch>
+                <use>standard</use>
+                <args>
+                    <module>Netstarter_Imageswitch</module>
+                    <frontName>imageswitch</frontName>
+                </args>
+            </imageswitch>
+        </routers>
+        <layout>
+            <updates>
+                <imageswitch>
+                    <file>imageswitch.xml</file>
+                </imageswitch>
+            </updates>
+        </layout>
+    </frontend>    
+</config>

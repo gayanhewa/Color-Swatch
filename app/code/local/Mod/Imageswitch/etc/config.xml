@@ -1,0 +1,25 @@
+<config>
+    <modules>
+        <Mod_Imageswitch>
+            <version>0.0.1</version>
+        </Mod_Imageswitch>
+    </modules>
+    <frontend>
+        <routers>
+            <imageswitch>
+                <use>standard</use>
+                <args>
+                    <module>Mod_Imageswitch</module>
+                    <frontName>imageswitch</frontName>
+                </args>
+            </imageswitch>
+        </routers>
+        <layout>
+            <updates>
+                <imageswitch>
+                    <file>imageswitch.xml</file>
+                </imageswitch>
+            </updates>
+        </layout>
+    </frontend>    
+</config>

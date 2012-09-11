@@ -1,0 +1,9 @@
+<config>
+    <modules>
+        <Mod_Imageswitch>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Mod_Imageswitch>
+    </modules>
+
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <imageswitch_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/empty.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="catalog/product_view_media" name="product.info.media" as="media" template="catalog/product/view/media.phtml" />
+        </reference>
+    </imageswitch_index_index>
+</layout>
